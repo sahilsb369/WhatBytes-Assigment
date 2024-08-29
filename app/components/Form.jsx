@@ -46,7 +46,6 @@ const Form = ({ setShow, setScore, setGraph, graph }) => {
               onChange={(e) => setRank(e.target.value)}
               placeholder='Enter your rank'
               className='w-full p-2 border border-gray-300 rounded-md'
-             
             />
           </div>
           <div className='mb-4'>
@@ -59,7 +58,6 @@ const Form = ({ setShow, setScore, setGraph, graph }) => {
               onChange={(e) => setPercentile(e.target.value)}
               placeholder='Enter your percentile'
               className='w-full p-2 border border-gray-300 rounded-md'
-              
             />
           </div>
           <div className='mb-4'>
@@ -82,13 +80,13 @@ const Form = ({ setShow, setScore, setGraph, graph }) => {
               onClick={() => {
                 setShow(false); // Close the form when "Cancel" is clicked
               }}
-              className='bg-red-500 text-white py-2 px-4 rounded-md mr-2 hover:bg-red-600'
+              className='bg-white text-black py-2 px-4 rounded-md mr-2 hover:bg-gray-200'
             >
               Cancel
             </button>
             <button
               type='submit'
-              className='bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600'
+              className='bg-blue-900 text-white py-2 px-4 rounded-md hover:bg-blue-600'
             >
               Save
             </button>
