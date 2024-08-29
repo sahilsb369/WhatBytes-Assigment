@@ -6,22 +6,22 @@ export const Data = [
   },
   {
     id: 2,
-    rank: 4,
+    rank: 9000,
     percentile: 80,
   },
   {
     id: 3,
-    rank: 45,
+    rank: 8000,
     percentile: 70,
   },
   {
     id: 4,
-    rank: 5000,
+    rank: 6000,
     percentile: 85,
   },
   {
     id: 5,
-    rank: 6000,
+    rank: 5000,
     percentile: 90,
   },
 ];
