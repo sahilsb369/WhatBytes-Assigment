@@ -14,11 +14,7 @@ const Navbar = () => {
         </div>
 
         <div className='flex items-center space-x-4 p-2 bg-white rounded-lg shadow-md border border-gray-300'>
-          <img
-            src='/images/OIp.jpeg'
-            alt='Profile Photo'
-            className='w-10 h-10 rounded-full'
-          />
+          <h1 className="p-2 bg-blue-400 rounded-full text-white">SB</h1>
           <span className='text-Black font-bold text-l'>Sahil Bhagat</span>
         </div>
       </div>
