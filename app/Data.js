@@ -7,7 +7,7 @@ export const Data = [
   {
     id: 2,
     rank: 4,
-    percentile: 8000,
+    percentile: 80,
   },
   {
     id: 3,
