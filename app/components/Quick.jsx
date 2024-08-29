@@ -14,7 +14,7 @@ const Quick = ({ setScore, score }) => {
     setShow(!show);
   };
   const [graph, setGraph] = useState(Data);
-  let size=graph.length;
+  let size = graph.length;
 
   const [chartData, setChartData] = useState({
     labels: graph.map((data) => data.percentile),
@@ -105,8 +105,9 @@ const Quick = ({ setScore, score }) => {
         <h5 className='text-lg font-bold'>Comparison Graph</h5>
         <div className='flex items-center'>
           <p className='text-xs text-gray-600'>
-            <b>You scored 90% percentile</b> which is lower than the average
-            percentile 72% of all the engineers who took this assessment
+            <b>You scored {graph[size - 1].percentile} percentile</b> which is
+            lower than the average percentile 72% of all the engineers who
+            took this assessment
           </p>
           <VscGraphLine className='h-10 w-10 bg-gray-300 text-black rounded-full p-2' />
         </div>

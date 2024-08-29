@@ -10,7 +10,6 @@ const Sidebar = ({ setActiveComponent }) => {
 
   return (
     <div className='w-64 bg-white-100 p-4 border-r border-gray-300 md:w-full'>
-      <h2 className='text-lg font-bold mb-4'>Menu</h2>
       <ul className="md:flex md:w-full md:justify-around">
         <li className='mb-4'>
           <button
