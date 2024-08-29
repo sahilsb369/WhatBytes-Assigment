@@ -1,8 +1,4 @@
 import React, {useState} from "react";
-import { Doughnut } from "react-chartjs-2";
-import { Line } from "react-chartjs-2";
-import PieChart from "./PieChart";
-import { Data } from "../Data";
 import { Questions } from "../Data";
 import { Pie } from "react-chartjs-2";
 
@@ -10,9 +6,6 @@ const Syllabus = ({score}) => {
   
   let unsolved = 15 - score;
   
-
-  
-
   const data = {
     labels: ["Solved", "Unsolved"],
     datasets: [
